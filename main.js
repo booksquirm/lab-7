@@ -1,9 +1,8 @@
 fetch('https://dog-api.kinduff.com/api/facts?number=1')
   .then(response => response.json())
   .then(data => {
-    const factElement = document.createElement('p');
-    factElement.textContent = data["facts"]
-    document.body.appendChild(factElement);
+    const elem = document.getElementById("dog-fact");
+    elem.textContent = data["facts"]
   });
   
   const index = Math.floor(Math.random() * 19);

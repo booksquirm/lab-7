@@ -1,0 +1,26 @@
+body {
+    color: #000;
+}
+
+header {
+    padding: 10px;
+}
+
+h1 {
+    font-size: 25px;
+    margin: 0;
+}
+
+section {
+    padding: 10px;
+}
+
+.dog-image {
+    text-align: center;
+}
+
+ img {
+    width: 500px;
+    height: auto;
+}
+
