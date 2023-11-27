@@ -1,14 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&family=Syne:wght@500&display=swap');
+
 body {
-    color: #000;
+    background-color: #E8E9EB;
+    font-family: 'Syne', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
+
 header {
-    padding: 10px;
+    align-items: center;
+    background-color: #313638;
+    display: flex;
+    padding: 20px;
+  }
+  
+  header h1 {
+    display: inline-block;
+  }
+
+header img {
+    width: 30px;
+    height: auto;
+}
+
+#dog-fact {
+    text-align: center;
 }
 
 h1 {
-    font-size: 25px;
+    color: #E8E9EB;
+    font-family: 'Style Script', cursive;
+    font-size: 50px;
     margin: 0;
+}
+
+h2 {
+    color: #EF6461;
+    font-family: 'Style Script', cursive;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+h3 {
+
 }
 
 section {
@@ -24,3 +60,63 @@ section {
     height: auto;
 }
 
+.more-dog-facts {
+    padding: 15px;
+    background-color: #E0DFD5;
+    border: 1px solid #313638;
+    border-radius: 5px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.more-dog-facts h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.more-dog-facts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.more-dog-facts li {
+    margin-bottom: 10px;
+}
+
+.more-dog-facts li p {
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.more-dogs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .dog-card {
+    margin: 10px;
+    width: 300px;
+    padding: 10px;
+    background-color: #E4B363;
+    border: 1px solid #313638;
+    border-radius: 5px;
+  }
+  
+  .dog-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .dog-card p {
+    line-height: 1.5;
+    margin-top: 10px;
+  }
+
+  footer {
+    background-color: #313638;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+  }
